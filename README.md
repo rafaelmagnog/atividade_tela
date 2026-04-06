@@ -1,17 +1,35 @@
-# atividade_tela
+# Atividade - Desenvolvimento de Dispositivos Móveis 📱
 
-A new Flutter project.
+Projeto acadêmico desenvolvido na disciplina **Desenvolvimento de Dispositivos Móveis**. Este repositório apresenta uma tela em Flutter com componentes reutilizáveis e organização por pastas.
 
-## Getting Started
+## Visão geral ✨
 
-This project is a starting point for a Flutter application.
+- App simples em Flutter com foco em layout e organização de UI.
+- Componentes separados em widgets reutilizáveis.
+- Estilos centralizados para cores e tipografia.
 
-A few resources to get you started if this is your first Flutter project:
+## Tecnologias 🧰
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Flutter
+- Dart
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Estrutura do projeto 🗂️
+
+- Código principal: [lib/main.dart](lib/main.dart)
+- Tela principal: [lib/screens/viagens_page.dart](lib/screens/viagens_page.dart)
+- Widgets reutilizáveis: [lib/widgets](lib/widgets)
+- Estilos e cores: [lib/constants](lib/constants)
+
+## Como executar ▶️
+
+1. Instale o Flutter e configure o ambiente (SDK e device/emulador).
+2. No diretório do projeto, execute:
+
+```bash
+flutter pub get
+flutter run
+```
+
+## Observações 📝
+
+Este projeto é apenas uma atividade acadêmica e não tem finalidade comercial.
